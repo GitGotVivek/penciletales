@@ -14,9 +14,7 @@ body {
 .active {
     @apply text-orange-500;
     position: relative;
-    /* Add relative positioning for the pseudo-element */
     transition: color 0.3s ease-in-out;
-    /* Smooth transition for color change */
 }
 
 .active::after {
